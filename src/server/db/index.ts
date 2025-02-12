@@ -29,4 +29,4 @@ conn.addListener("error", (err) => {
   console.log("Database connection error: ", err);
 })
 
-export const db = drizzle(conn, { schema });
+// export const db = drizzle(conn, { schema });

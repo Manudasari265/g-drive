@@ -4,7 +4,7 @@ import { env } from "~/env";
 
 export default {
   schema: "./src/server/db/schema.ts",
-  dialect: "singlestore",
+  // dialect: "singlestore",
   
   tablesFilter: ["g-drive_*"],
-} satisfies Config;
+} 
